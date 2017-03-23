@@ -7,7 +7,7 @@ OPERATORS = {
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
-	'^': operator.carot
+	'^': operator.pow
 }
 
 

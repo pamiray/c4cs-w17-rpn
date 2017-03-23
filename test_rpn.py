@@ -11,3 +11,9 @@ class TestBasics(unittest.TestCase):
 	def test_carat(self):
 		result = rpn.calculate('2 2 ^')
 		self.assertEqual(4, result)
+	def test_mult(self):
+		result = rpn.calculate('5 5 *')
+		self.assertEqual(25, result)
+	def test_truediv(self):
+		result = rpn.calculate('10 2 /')
+		self.assertEqual(5, result)
