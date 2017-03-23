@@ -1,7 +1,7 @@
+after_success: 
+  - coveralls
+install: 
+  - "pip install coveralls"
 language: python3
-install:
-	- pip install coveralls
 script: 
-	coverage run -m unittest
-after_success:
-	coveralls
+  - "coverage run -m unittest"
