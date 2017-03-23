@@ -1,4 +1,4 @@
 language: python
-script: coverage run --source make test
+script: coverage run -m test
 after_success:
 	coveralls
