@@ -12,6 +12,7 @@ OPERATORS = {
 
 
 
+
 def calculate(arg):
 	stack = list()
 	for operand in arg.split():
