@@ -1,7 +1,7 @@
 language: python3
+install:
+	- pip install coveralls
 script: 
 	coverage run -m unittest
-install:
-	-pip3 install coveralls
 after_success:
 	coveralls
