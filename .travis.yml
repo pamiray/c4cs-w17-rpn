@@ -1,5 +1,7 @@
-language: python
+language: python3
 script: 
-	coverage run --source=m test_rpn.py test
+	coverage run -m unittest
+install:
+	-pip3 install coveralls
 after_success:
 	coveralls
