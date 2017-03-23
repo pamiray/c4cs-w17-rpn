@@ -1,4 +1,4 @@
 language: python
-script: coverage run -m test
+script: coverage run -m test_rpn.py test
 after_success:
 	coveralls
